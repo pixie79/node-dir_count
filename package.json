@@ -1,0 +1,21 @@
+{
+  "name": "dir_count",
+  "version": "0.0.1",
+  "description": "File counting module for directories with metric and alert outputs",
+  "main": "bin/dir_count.js",
+  "bin": {
+    "dir_count": "dir_count.js"
+  },
+  "scripts": {
+    "test": "bin/dir_count -m -p /tmp"
+  },
+  "repository": "https://github.com/pixie79/node-dir_count.git",
+  "keywords": [
+    "sensu",
+    "dir",
+    "count"
+  ],
+  "author": "Mark Olliver",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
