@@ -9,13 +9,19 @@
   "scripts": {
     "test": "bin/dir_count -m -p /tmp"
   },
-  "repository": "https://github.com/pixie79/node-dir_count.git",
+  "repository": 
+  { "type" : "git"
+  , "url" : "https://github.com/pixie79/npm-dir_count.git"
+  },
   "keywords": [
     "sensu",
     "dir",
     "count"
   ],
-  "author": "Mark Olliver",
+  "author": "Mark Olliver <pixie79.me.com> (http://pixie79.com)",
   "license": "BSD",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "node-getopt": "~0.1.0"
+  }
 }
