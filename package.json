@@ -1,17 +1,17 @@
 {
   "name": "dir_count",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "File counting module for directories with metric and alert outputs",
   "main": "bin/dir_count.js",
   "bin": {
-    "dir_count": "dir_count.js"
+    "dir_count": "./bin/dir_count.js"
   },
   "scripts": {
-    "test": "bin/dir_count -m -p /tmp"
+    "test": "bin/dir_count.js -m -p /tmp"
   },
   "repository": 
   { "type" : "git"
-  , "url" : "https://github.com/pixie79/npm-dir_count.git"
+  , "url" : "https://github.com/pixie79/node-dir_count.git"
   },
   "keywords": [
     "sensu",
@@ -22,6 +22,6 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "dependencies": {
-    "node-getopt": "~0.1.0"
+    "node-getopt": "~0.2.1"
   }
 }
